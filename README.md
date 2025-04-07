@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Dollary
+## _Personal Money Management Made Simple_
 
-## Getting Started
+***Dollary*** is a personal finance app designed to help users take control of their money with clarity and ease. The app allows users to securely link their bank accounts, track daily spending, and visualize their financial habits over time. With a clean interface and smart insights, Dollary makes it easy to understand where your money goes, set financial goals, and develop healthier spending patterns.
 
-First, run the development server:
+Whether you’re looking to stick to a budget, monitor daily expenses, or simply become more financially aware, Dollary provides the tools you need to manage your money—your way.
+***
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔷 Frontend
+The frontend is designed to deliver a clean, fast, and accessible user experience. It uses a modern React-based framework that enables dynamic, interactive interfaces while keeping the user experience smooth and responsive. Styling is handled with a utility-first CSS approach that makes it easy to build sleek and mobile-friendly layouts. Form handling and validation are integrated to make user input seamless and error-resistant, while visual elements like charts and notifications enhance engagement and clarity.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **[Next.js](https://nextjs.org/)** – Framework for building fast, dynamic user interfaces
+- **[React](https://reactjs.org/)** – Component-based UI library
+- **[TypeScript](https://www.typescriptlang.org/)** – Adds type safety to JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for custom styling
+- **[Headless UI](https://headlessui.dev/)** – Accessible UI components with full styling control
+- **[React Hook Form](https://react-hook-form.com/)** – Efficient form state and validation management
+- **[Zod](https://zod.dev/)** – Type-safe schema validation, integrated with forms
+- **[Chart.js](https://www.chartjs.org/)** + **[React-Chartjs-2](https://react-chartjs-2.js.org/)** – Interactive data visualization
+- **[date-fns](https://date-fns.org/)** – Lightweight and modern date utility library
+- **[React Toastify](https://fkhadra.github.io/react-toastify/)** – Customizable toast notification system
+- **[Recoil](https://recoiljs.org/)** – Simple and scalable global state management
+- **[React Query (TanStack Query)](https://tanstack.com/query/latest)** – Handles asynchronous data fetching and caching
+***
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔶 Backend
 
-## Learn More
+The backend combines a powerful backend-as-a-service platform with external financial APIs to handle core functionality like authentication, data storage, and secure access to user banking data. It is built with scalability and data security in mind, ensuring users’ personal and financial data is handled with care. Scheduled background tasks and user-specific data are managed through secure APIs and services to support automated features like daily summaries and budget tracking.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Appwrite](https://appwrite.io/)** – Backend-as-a-Service for authentication, database, and cloud functions
+- **[MongoDB](https://www.mongodb.com/)** – NoSQL database for storing transactions, settings, and user data
+- **[Plaid API](https://plaid.com/)** – Secure access to user financial account and transaction data
+- **[Appwrite Functions](https://appwrite.io/docs/functions)** – Used for background jobs (like daily cost summaries or scheduled tasks)
+***
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ⚙️ ***Build & Tooling***
 
-## Deploy on Vercel
+The app uses a full-featured developer environment that supports rapid iteration, modular development, and future scalability. Strong typing ensures reliability across the codebase, and a component-based structure makes it easy to maintain and expand the application over time. It’s built with performance in mind and optimized for deployment on modern platforms, enabling fast page loads and a smooth user experience across devices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **[TypeScript](https://www.typescriptlang.org/)** – Ensures consistent data types across the stack
+- **[ESLint](https://eslint.org/)** & **[Prettier](https://prettier.io/)** – Code quality and formatting tools
+- **[Vercel](https://vercel.com/)** – Deployment platform for the frontend
+- **[Postman](https://www.postman.com/)** – API testing and debugging tool
+- **[GitHub](https://github.com/)** – Source control and version tracking
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
